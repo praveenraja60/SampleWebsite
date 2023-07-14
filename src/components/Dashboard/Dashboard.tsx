@@ -27,7 +27,7 @@ const Dashboard = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="" onClick={handleManageClick}>
+                  <a href="#" onClick={handleManageClick}>
                     Manage
                   </a>
                 </li>
