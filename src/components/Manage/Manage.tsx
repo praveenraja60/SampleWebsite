@@ -42,7 +42,7 @@ const Manage = () => {
   });
 
   return (
-    <Container  className="body-content">
+    <Container className="body-content">
       <nav className="navbar navbar-default">
         <div className="container-fluid body-content">
           <ul className="nav navbar-nav">
@@ -67,7 +67,7 @@ const Manage = () => {
           <div className="navbar-left">
             <span className="profile-photo body-content">
               <img src={profilephoto} alt="Profile Photo" />
-            </span >
+            </span>
             <label className="user-name body-content">Praveen Rajkumar</label>
           </div>
         </div>
@@ -79,21 +79,21 @@ const Manage = () => {
         </div>
       </div>
 
-      <div  className="body-content">
+      <div className="body-content">
         <form className="form">
           <label className="manage-label">Gateway</label>
 
-          <Row  className="body-content">
-            <Col  >
+          <Row className="body-content">
+            <Col>
               <div className="body-content">
-              <div className="btn-gateway">
-                <span>
-                  <input type="text" placeholder="Search Table" />
-                </span>
+                <div className="btn-gateway">
+                  <span>
+                    <input type="text" placeholder="Search Table" />
+                  </span>
 
-                <button className="gate" onClick={toggleDrawer}>
-                  ADD GATEWAY
-                </button>
+                  <button className="gate" onClick={toggleDrawer}>
+                    ADD GATEWAY
+                  </button>
                 </div>
                 {/* First Drawer */}
                 <Drawer
@@ -344,7 +344,7 @@ const Manage = () => {
             </Col>
           </Row>
 
-          <Row  className="body-content">
+          <Row className="body-content">
             <Col>
               <table className="body-content">
                 <thead>
